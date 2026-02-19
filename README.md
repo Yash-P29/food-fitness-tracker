@@ -1,71 +1,59 @@
-# food-fitness-tracker
+✨ Features
+Smart Logging
+Log Food with grams → calories calculated automatically
+Log Strength workouts (weight + reps)
+Log Cardio workouts (duration)
+Autocomplete Search
+Food search suggestions while typing
+Exercise search suggestions (Strength + Cardio)
+Base Workout System (Weekly Plan)
+Set a default workout plan for each weekday (Mon–Sun)
+Reuses your plan automatically every week
+Mark a day as Rest Day
+Today Plan shows what you should do today
+Timeline + History
+Daily Timeline merges food + workout logs
+Edit or delete entries
+History panel shows Food and Workout logs separately
+Streak + Goals
+Workout streak tracking
+Daily goals for burned calories + eaten calories
+Shows goal progress on dashboard
 
-FaF is a modern full-stack Food + Workout tracker where you can log meals, track calories, log workouts, maintain streaks, and plan workouts for each weekday using a Base Workout system.
+Tech Stack
+Frontend
 
-It combines **food + exercise tracking in one dashboard**, with a clean UI and smart features like autocomplete, timeline history, and weekly workout planning.
+React (Vite)
 
----
+Axios
 
-## ✨ Features
+Custom UI styling (Charcoal theme + gradients)
 
-### 🧠 Smart Logging
-- Log **Food** with grams → calories calculated automatically
-- Log **Strength workouts** (weight + reps)
-- Log **Cardio workouts** (duration)
+Backend
 
-### 🔍 Autocomplete Search
-- Food search suggestions while typing
-- Exercise search suggestions (Strength + Cardio)
+Python (FastAPI)
 
-### 📌 Base Workout System (Weekly Plan)
-- Set a default workout plan for each weekday (Mon–Sun)
-- Reuses your plan automatically every week
-- Mark a day as **Rest Day**
-- Today Plan shows what you should do today
+MySQL (or compatible SQL database)
 
-### 📜 Timeline + History
-- Daily Timeline merges food + workout logs
-- Edit or delete entries
-- History panel shows Food and Workout logs separately
+Data
 
-### 🔥 Streak + Goals
-- Workout streak tracking
-- Daily goals for burned calories + eaten calories
-- Shows goal progress on dashboard
+Strength exercise dataset (CSV)
 
----
+Cardio dataset (CSV)
 
-## 🧱 Tech Stack
-
-### Frontend
-- React (Vite)
-- Axios
-- Custom UI styling (Charcoal theme + gradients)
-
-### Backend
-- Python (FastAPI)
-- MySQL (or compatible SQL database)
-
-### Data
-- Strength exercise dataset (CSV)
-- Cardio dataset (CSV)
-
----
-
-## 📁 Project Structure
-
-```txt
+Project Structure
 FaF food and fitness tracker/
 │
 ├── exercise_python/      # Workout backend (FastAPI)
 ├── food_backend/         # Food backend (FastAPI)
 └── react/frontend/       # React UI (Vite)
-⚙️ Setup Instructions
-✅ 1) Clone the repo
+
+Setup Instructions
+1) Clone the repo
 git clone https://github.com/Yash-P29/food-fitness-tracker.git
 cd "FaF food and fitness tracker"
 
-🐍 Backend Setup (Exercise API)
+Backend Setup (Exercise API)
 1) Go into exercise backend
 cd exercise_python
 
@@ -83,8 +71,7 @@ uvicorn main:app --reload --port 8000
 Exercise backend runs at:
 
 http://127.0.0.1:8000
-
-🥗 Backend Setup (Food API)
+ Backend Setup (Food API)
 1) Go into food backend
 cd food_backend
 
@@ -103,7 +90,7 @@ Food backend runs at:
 
 http://127.0.0.1:8001
 
-🌐 Frontend Setup (React)
+Frontend Setup (React)
 1) Go into frontend
 cd react/frontend
 
@@ -113,16 +100,15 @@ npm install
 3) Run frontend
 npm run dev
 
-
 Frontend runs at:
 
 http://localhost:5173
 
-🗄️ Database Setup
+Database Setup
 
 Both backends use a SQL database.
 
-Configure:
+You must configure:
 
 exercise_python/database.py
 
@@ -140,7 +126,7 @@ rest_days (optional depending on implementation)
 
 goals (if used)
 
-🔌 API Endpoints (Main)
+API Endpoints (Main)
 Exercise Backend (:8000)
 Endpoint	Method	Description
 /workout/log-set	POST	Log strength/cardio
@@ -162,29 +148,14 @@ Endpoint	Method	Description
 /food/update	PUT	Update grams
 /food/search	GET	Food autocomplete
 /food/daily	GET	Daily eaten calories
-📸 Screenshots
-
-Add your screenshots here:
-
-![Dashboard](screenshots/dashboard.png)
-![Base Workout](screenshots/base_workout.png)
-![Timeline](screenshots/timeline.png)
-
-
-(You can create a screenshots/ folder later.)
 
 🚀 Future Roadmap
 
 Planned improvements:
-
 Weekly analytics dashboard (graphs + trends)
-
 Better streak logic for food + workouts
-
 Smarter exercise calorie calculation UI
-
 Authentication (multi-user)
-
 Deployment: Render/Railway/Vercel
 
 Mobile-first layout improvements
