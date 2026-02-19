@@ -1,0 +1,166 @@
+:root {
+  /* ----------------------------
+     CHARCOAL BACKGROUND SYSTEM
+  ---------------------------- */
+  --bg0: #050607;
+  --bg1: #0a0c0d;
+  --bg2: #0f1213;
+
+  --card: rgba(255, 255, 255, 0.035);
+  --border: rgba(255, 255, 255, 0.08);
+
+  --text: rgba(244, 244, 245, 0.92);
+  --muted: rgba(244, 244, 245, 0.55);
+
+  --radius: 20px;
+
+  /* ----------------------------
+     ACCENTS
+  ---------------------------- */
+  --purple: #a78bfa;
+  --blue: #60a5fa;
+
+  --green: #22c55e;
+  --red: #ef4444;
+  --orange: #f97316;
+
+  /* ----------------------------
+     GRADIENTS (NO GREEN NOW)
+  ---------------------------- */
+  --grad: linear-gradient(90deg, #8b5cf6, #60a5fa);
+  --grad-strong: linear-gradient(90deg, #7c3aed, #3b82f6);
+}
+
+/* -----------------------------------
+   GLOBAL BASE
+----------------------------------- */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: var(--text);
+}
+
+/* -----------------------------------
+   BACKGROUND (CHARCOAL)
+----------------------------------- */
+body {
+  min-height: 100vh;
+
+  background:
+    radial-gradient(circle at 20% 10%, rgba(139, 92, 246, 0.12), transparent 55%),
+    radial-gradient(circle at 80% 20%, rgba(96, 165, 250, 0.10), transparent 55%),
+    radial-gradient(circle at 50% 100%, rgba(255, 255, 255, 0.03), transparent 70%),
+    linear-gradient(180deg, var(--bg0), var(--bg1), var(--bg2));
+}
+
+/* -----------------------------------
+   DEFAULT BUTTON STYLE
+----------------------------------- */
+button {
+  border: none;
+  outline: none;
+  color: var(--text);
+  font-weight: 900;
+  border-radius: 999px;
+  padding: 10px 14px;
+
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  cursor: pointer;
+  transition: 0.18s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  border-color: rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+button:active {
+  transform: translateY(0px) scale(0.99);
+}
+
+button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* -----------------------------------
+   INPUT + SELECT
+----------------------------------- */
+input,
+select {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 16px;
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text);
+
+  outline: none;
+  transition: 0.18s ease;
+}
+
+input::placeholder {
+  color: rgba(244, 244, 245, 0.35);
+}
+
+input:focus,
+select:focus {
+  border-color: rgba(167, 139, 250, 0.35);
+  box-shadow: 0 0 0 4px rgba(167, 139, 250, 0.08);
+}
+
+/* -----------------------------------
+   SCROLLBAR (OPTIONAL)
+----------------------------------- */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.10);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.16);
+}
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text);
+
+  cursor: pointer;
+
+  /* dropdown arrow */
+  background-image: linear-gradient(45deg, transparent 50%, rgba(255,255,255,0.5) 50%),
+    linear-gradient(135deg, rgba(255,255,255,0.5) 50%, transparent 50%);
+  background-position: calc(100% - 18px) calc(50% - 3px),
+    calc(100% - 12px) calc(50% - 3px);
+  background-size: 6px 6px, 6px 6px;
+  background-repeat: no-repeat;
+
+  padding-right: 36px;
+}
+
+select option {
+  background: #0b0c0d;
+  color: rgba(244, 244, 245, 0.92);
+}

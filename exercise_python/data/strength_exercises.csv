@@ -1,0 +1,491 @@
+exercise_name,body_factor,rom_meters
+Bench Press,5,0.3
+Bench Press (Wide),6,0.4
+Bench Press (Narrow),7,0.5
+Bench Press (Neutral),8,0.6
+Bench Press (Paused),9,0.7
+Bench Press (Tempo),10,0.8
+Bench Press (Single Arm),5,0.9
+Incline Bench Press,6,1
+Incline Bench Press (Wide),7,1.1
+Incline Bench Press (Narrow),8,1.2
+Incline Bench Press (Neutral),9,0.3
+Incline Bench Press (Paused),10,0.4
+Incline Bench Press (Tempo),5,0.5
+Incline Bench Press (Single Arm),6,0.6
+Decline Bench Press,7,0.7
+Decline Bench Press (Wide),8,0.8
+Decline Bench Press (Narrow),9,0.9
+Decline Bench Press (Neutral),10,1
+Decline Bench Press (Paused),5,1.1
+Decline Bench Press (Tempo),6,1.2
+Decline Bench Press (Single Arm),7,0.3
+Dumbbell Fly,8,0.4
+Dumbbell Fly (Wide),9,0.5
+Dumbbell Fly (Narrow),10,0.6
+Dumbbell Fly (Neutral),5,0.7
+Dumbbell Fly (Paused),6,0.8
+Dumbbell Fly (Tempo),7,0.9
+Dumbbell Fly (Single Arm),8,1
+Cable Fly,9,1.1
+Cable Fly (Wide),10,1.2
+Cable Fly (Narrow),5,0.3
+Cable Fly (Neutral),6,0.4
+Cable Fly (Paused),7,0.5
+Cable Fly (Tempo),8,0.6
+Cable Fly (Single Arm),9,0.7
+Push Up,10,0.8
+Push Up (Wide),5,0.9
+Push Up (Narrow),6,1
+Push Up (Neutral),7,1.1
+Push Up (Paused),8,1.2
+Push Up (Tempo),9,0.3
+Push Up (Single Arm),10,0.4
+Chest Dip,5,0.5
+Chest Dip (Wide),6,0.6
+Chest Dip (Narrow),7,0.7
+Chest Dip (Neutral),8,0.8
+Chest Dip (Paused),9,0.9
+Chest Dip (Tempo),10,1
+Chest Dip (Single Arm),5,1.1
+Machine Press,6,1.2
+Machine Press (Wide),7,0.3
+Machine Press (Narrow),8,0.4
+Machine Press (Neutral),9,0.5
+Machine Press (Paused),10,0.6
+Machine Press (Tempo),5,0.7
+Machine Press (Single Arm),6,0.8
+Pec Deck,7,0.9
+Pec Deck (Wide),8,1
+Pec Deck (Narrow),9,1.1
+Pec Deck (Neutral),10,1.2
+Pec Deck (Paused),5,0.3
+Pec Deck (Tempo),6,0.4
+Pec Deck (Single Arm),7,0.5
+Svend Press,8,0.6
+Svend Press (Wide),9,0.7
+Svend Press (Narrow),10,0.8
+Svend Press (Neutral),5,0.9
+Svend Press (Paused),6,1
+Svend Press (Tempo),7,1.1
+Svend Press (Single Arm),8,1.2
+Overhead Press,9,0.3
+Overhead Press (Wide),10,0.4
+Overhead Press (Narrow),5,0.5
+Overhead Press (Neutral),6,0.6
+Overhead Press (Paused),7,0.7
+Overhead Press (Tempo),8,0.8
+Overhead Press (Single Arm),9,0.9
+Arnold Press,10,1
+Arnold Press (Wide),5,1.1
+Arnold Press (Narrow),6,1.2
+Arnold Press (Neutral),7,0.3
+Arnold Press (Paused),8,0.4
+Arnold Press (Tempo),9,0.5
+Arnold Press (Single Arm),10,0.6
+Lateral Raise,5,0.7
+Lateral Raise (Wide),6,0.8
+Lateral Raise (Narrow),7,0.9
+Lateral Raise (Neutral),8,1
+Lateral Raise (Paused),9,1.1
+Lateral Raise (Tempo),10,1.2
+Lateral Raise (Single Arm),5,0.3
+Front Raise,6,0.4
+Front Raise (Wide),7,0.5
+Front Raise (Narrow),8,0.6
+Front Raise (Neutral),9,0.7
+Front Raise (Paused),10,0.8
+Front Raise (Tempo),5,0.9
+Front Raise (Single Arm),6,1
+Rear Delt Fly,7,1.1
+Rear Delt Fly (Wide),8,1.2
+Rear Delt Fly (Narrow),9,0.3
+Rear Delt Fly (Neutral),10,0.4
+Rear Delt Fly (Paused),5,0.5
+Rear Delt Fly (Tempo),6,0.6
+Rear Delt Fly (Single Arm),7,0.7
+Upright Row,8,0.8
+Upright Row (Wide),9,0.9
+Upright Row (Narrow),10,1
+Upright Row (Neutral),5,1.1
+Upright Row (Paused),6,1.2
+Upright Row (Tempo),7,0.3
+Upright Row (Single Arm),8,0.4
+Face Pull,9,0.5
+Face Pull (Wide),10,0.6
+Face Pull (Narrow),5,0.7
+Face Pull (Neutral),6,0.8
+Face Pull (Paused),7,0.9
+Face Pull (Tempo),8,1
+Face Pull (Single Arm),9,1.1
+Push Press,10,1.2
+Push Press (Wide),5,0.3
+Push Press (Narrow),6,0.4
+Push Press (Neutral),7,0.5
+Push Press (Paused),8,0.6
+Push Press (Tempo),9,0.7
+Push Press (Single Arm),10,0.8
+Cable Raise,5,0.9
+Cable Raise (Wide),6,1
+Cable Raise (Narrow),7,1.1
+Cable Raise (Neutral),8,1.2
+Cable Raise (Paused),9,0.3
+Cable Raise (Tempo),10,0.4
+Cable Raise (Single Arm),5,0.5
+Machine Shoulder Press,6,0.6
+Machine Shoulder Press (Wide),7,0.7
+Machine Shoulder Press (Narrow),8,0.8
+Machine Shoulder Press (Neutral),9,0.9
+Machine Shoulder Press (Paused),10,1
+Machine Shoulder Press (Tempo),5,1.1
+Machine Shoulder Press (Single Arm),6,1.2
+Pull Up,7,0.3
+Pull Up (Wide),8,0.4
+Pull Up (Narrow),9,0.5
+Pull Up (Neutral),10,0.6
+Pull Up (Paused),5,0.7
+Pull Up (Tempo),6,0.8
+Pull Up (Single Arm),7,0.9
+Chin Up,8,1
+Chin Up (Wide),9,1.1
+Chin Up (Narrow),10,1.2
+Chin Up (Neutral),5,0.3
+Chin Up (Paused),6,0.4
+Chin Up (Tempo),7,0.5
+Chin Up (Single Arm),8,0.6
+Lat Pulldown,9,0.7
+Lat Pulldown (Wide),10,0.8
+Lat Pulldown (Narrow),5,0.9
+Lat Pulldown (Neutral),6,1
+Lat Pulldown (Paused),7,1.1
+Lat Pulldown (Tempo),8,1.2
+Lat Pulldown (Single Arm),9,0.3
+Seated Row,10,0.4
+Seated Row (Wide),5,0.5
+Seated Row (Narrow),6,0.6
+Seated Row (Neutral),7,0.7
+Seated Row (Paused),8,0.8
+Seated Row (Tempo),9,0.9
+Seated Row (Single Arm),10,1
+Bent Over Row,5,1.1
+Bent Over Row (Wide),6,1.2
+Bent Over Row (Narrow),7,0.3
+Bent Over Row (Neutral),8,0.4
+Bent Over Row (Paused),9,0.5
+Bent Over Row (Tempo),10,0.6
+Bent Over Row (Single Arm),5,0.7
+T Bar Row,6,0.8
+T Bar Row (Wide),7,0.9
+T Bar Row (Narrow),8,1
+T Bar Row (Neutral),9,1.1
+T Bar Row (Paused),10,1.2
+T Bar Row (Tempo),5,0.3
+T Bar Row (Single Arm),6,0.4
+Deadlift,7,0.5
+Deadlift (Wide),8,0.6
+Deadlift (Narrow),9,0.7
+Deadlift (Neutral),10,0.8
+Deadlift (Paused),5,0.9
+Deadlift (Tempo),6,1
+Deadlift (Single Arm),7,1.1
+Rack Pull,8,1.2
+Rack Pull (Wide),9,0.3
+Rack Pull (Narrow),10,0.4
+Rack Pull (Neutral),5,0.5
+Rack Pull (Paused),6,0.6
+Rack Pull (Tempo),7,0.7
+Rack Pull (Single Arm),8,0.8
+Straight Arm Pulldown,9,0.9
+Straight Arm Pulldown (Wide),10,1
+Straight Arm Pulldown (Narrow),5,1.1
+Straight Arm Pulldown (Neutral),6,1.2
+Straight Arm Pulldown (Paused),7,0.3
+Straight Arm Pulldown (Tempo),8,0.4
+Straight Arm Pulldown (Single Arm),9,0.5
+Good Morning,10,0.6
+Good Morning (Wide),5,0.7
+Good Morning (Narrow),6,0.8
+Good Morning (Neutral),7,0.9
+Good Morning (Paused),8,1
+Good Morning (Tempo),9,1.1
+Good Morning (Single Arm),10,1.2
+Barbell Curl,5,0.3
+Barbell Curl (Wide),6,0.4
+Barbell Curl (Narrow),7,0.5
+Barbell Curl (Neutral),8,0.6
+Barbell Curl (Paused),9,0.7
+Barbell Curl (Tempo),10,0.8
+Barbell Curl (Single Arm),5,0.9
+Dumbbell Curl,6,1
+Dumbbell Curl (Wide),7,1.1
+Dumbbell Curl (Narrow),8,1.2
+Dumbbell Curl (Neutral),9,0.3
+Dumbbell Curl (Paused),10,0.4
+Dumbbell Curl (Tempo),5,0.5
+Dumbbell Curl (Single Arm),6,0.6
+Hammer Curl,7,0.7
+Hammer Curl (Wide),8,0.8
+Hammer Curl (Narrow),9,0.9
+Hammer Curl (Neutral),10,1
+Hammer Curl (Paused),5,1.1
+Hammer Curl (Tempo),6,1.2
+Hammer Curl (Single Arm),7,0.3
+Preacher Curl,8,0.4
+Preacher Curl (Wide),9,0.5
+Preacher Curl (Narrow),10,0.6
+Preacher Curl (Neutral),5,0.7
+Preacher Curl (Paused),6,0.8
+Preacher Curl (Tempo),7,0.9
+Preacher Curl (Single Arm),8,1
+Spider Curl,9,1.1
+Spider Curl (Wide),10,1.2
+Spider Curl (Narrow),5,0.3
+Spider Curl (Neutral),6,0.4
+Spider Curl (Paused),7,0.5
+Spider Curl (Tempo),8,0.6
+Spider Curl (Single Arm),9,0.7
+Concentration Curl,10,0.8
+Concentration Curl (Wide),5,0.9
+Concentration Curl (Narrow),6,1
+Concentration Curl (Neutral),7,1.1
+Concentration Curl (Paused),8,1.2
+Concentration Curl (Tempo),9,0.3
+Concentration Curl (Single Arm),10,0.4
+Cable Curl,5,0.5
+Cable Curl (Wide),6,0.6
+Cable Curl (Narrow),7,0.7
+Cable Curl (Neutral),8,0.8
+Cable Curl (Paused),9,0.9
+Cable Curl (Tempo),10,1
+Cable Curl (Single Arm),5,1.1
+EZ Bar Curl,6,1.2
+EZ Bar Curl (Wide),7,0.3
+EZ Bar Curl (Narrow),8,0.4
+EZ Bar Curl (Neutral),9,0.5
+EZ Bar Curl (Paused),10,0.6
+EZ Bar Curl (Tempo),5,0.7
+EZ Bar Curl (Single Arm),6,0.8
+Drag Curl,7,0.9
+Drag Curl (Wide),8,1
+Drag Curl (Narrow),9,1.1
+Drag Curl (Neutral),10,1.2
+Drag Curl (Paused),5,0.3
+Drag Curl (Tempo),6,0.4
+Drag Curl (Single Arm),7,0.5
+Zottman Curl,8,0.6
+Zottman Curl (Wide),9,0.7
+Zottman Curl (Narrow),10,0.8
+Zottman Curl (Neutral),5,0.9
+Zottman Curl (Paused),6,1
+Zottman Curl (Tempo),7,1.1
+Zottman Curl (Single Arm),8,1.2
+Close Grip Bench,9,0.3
+Close Grip Bench (Wide),10,0.4
+Close Grip Bench (Narrow),5,0.5
+Close Grip Bench (Neutral),6,0.6
+Close Grip Bench (Paused),7,0.7
+Close Grip Bench (Tempo),8,0.8
+Close Grip Bench (Single Arm),9,0.9
+Skullcrusher,10,1
+Skullcrusher (Wide),5,1.1
+Skullcrusher (Narrow),6,1.2
+Skullcrusher (Neutral),7,0.3
+Skullcrusher (Paused),8,0.4
+Skullcrusher (Tempo),9,0.5
+Skullcrusher (Single Arm),10,0.6
+Triceps Dip,5,0.7
+Triceps Dip (Wide),6,0.8
+Triceps Dip (Narrow),7,0.9
+Triceps Dip (Neutral),8,1
+Triceps Dip (Paused),9,1.1
+Triceps Dip (Tempo),10,1.2
+Triceps Dip (Single Arm),5,0.3
+Rope Pushdown,6,0.4
+Rope Pushdown (Wide),7,0.5
+Rope Pushdown (Narrow),8,0.6
+Rope Pushdown (Neutral),9,0.7
+Rope Pushdown (Paused),10,0.8
+Rope Pushdown (Tempo),5,0.9
+Rope Pushdown (Single Arm),6,1
+Bar Pushdown,7,1.1
+Bar Pushdown (Wide),8,1.2
+Bar Pushdown (Narrow),9,0.3
+Bar Pushdown (Neutral),10,0.4
+Bar Pushdown (Paused),5,0.5
+Bar Pushdown (Tempo),6,0.6
+Bar Pushdown (Single Arm),7,0.7
+Overhead Extension,8,0.8
+Overhead Extension (Wide),9,0.9
+Overhead Extension (Narrow),10,1
+Overhead Extension (Neutral),5,1.1
+Overhead Extension (Paused),6,1.2
+Overhead Extension (Tempo),7,0.3
+Overhead Extension (Single Arm),8,0.4
+Kickback,9,0.5
+Kickback (Wide),10,0.6
+Kickback (Narrow),5,0.7
+Kickback (Neutral),6,0.8
+Kickback (Paused),7,0.9
+Kickback (Tempo),8,1
+Kickback (Single Arm),9,1.1
+JM Press,10,1.2
+JM Press (Wide),5,0.3
+JM Press (Narrow),6,0.4
+JM Press (Neutral),7,0.5
+JM Press (Paused),8,0.6
+JM Press (Tempo),9,0.7
+JM Press (Single Arm),10,0.8
+Diamond Pushup,5,0.9
+Diamond Pushup (Wide),6,1
+Diamond Pushup (Narrow),7,1.1
+Diamond Pushup (Neutral),8,1.2
+Diamond Pushup (Paused),9,0.3
+Diamond Pushup (Tempo),10,0.4
+Diamond Pushup (Single Arm),5,0.5
+Machine Extension,6,0.6
+Machine Extension (Wide),7,0.7
+Machine Extension (Narrow),8,0.8
+Machine Extension (Neutral),9,0.9
+Machine Extension (Paused),10,1
+Machine Extension (Tempo),5,1.1
+Machine Extension (Single Arm),6,1.2
+Crunch,7,0.3
+Crunch (Wide),8,0.4
+Crunch (Narrow),9,0.5
+Crunch (Neutral),10,0.6
+Crunch (Paused),5,0.7
+Crunch (Tempo),6,0.8
+Crunch (Single Arm),7,0.9
+Sit Up,8,1
+Sit Up (Wide),9,1.1
+Sit Up (Narrow),10,1.2
+Sit Up (Neutral),5,0.3
+Sit Up (Paused),6,0.4
+Sit Up (Tempo),7,0.5
+Sit Up (Single Arm),8,0.6
+Leg Raise,9,0.7
+Leg Raise (Wide),10,0.8
+Leg Raise (Narrow),5,0.9
+Leg Raise (Neutral),6,1
+Leg Raise (Paused),7,1.1
+Leg Raise (Tempo),8,1.2
+Leg Raise (Single Arm),9,0.3
+Hanging Leg Raise,10,0.4
+Hanging Leg Raise (Wide),5,0.5
+Hanging Leg Raise (Narrow),6,0.6
+Hanging Leg Raise (Neutral),7,0.7
+Hanging Leg Raise (Paused),8,0.8
+Hanging Leg Raise (Tempo),9,0.9
+Hanging Leg Raise (Single Arm),10,1
+Cable Crunch,5,1.1
+Cable Crunch (Wide),6,1.2
+Cable Crunch (Narrow),7,0.3
+Cable Crunch (Neutral),8,0.4
+Cable Crunch (Paused),9,0.5
+Cable Crunch (Tempo),10,0.6
+Cable Crunch (Single Arm),5,0.7
+Ab Wheel Rollout,6,0.8
+Ab Wheel Rollout (Wide),7,0.9
+Ab Wheel Rollout (Narrow),8,1
+Ab Wheel Rollout (Neutral),9,1.1
+Ab Wheel Rollout (Paused),10,1.2
+Ab Wheel Rollout (Tempo),5,0.3
+Ab Wheel Rollout (Single Arm),6,0.4
+Russian Twist,7,0.5
+Russian Twist (Wide),8,0.6
+Russian Twist (Narrow),9,0.7
+Russian Twist (Neutral),10,0.8
+Russian Twist (Paused),5,0.9
+Russian Twist (Tempo),6,1
+Russian Twist (Single Arm),7,1.1
+Plank,8,1.2
+Plank (Wide),9,0.3
+Plank (Narrow),10,0.4
+Plank (Neutral),5,0.5
+Plank (Paused),6,0.6
+Plank (Tempo),7,0.7
+Plank (Single Arm),8,0.8
+Side Plank,9,0.9
+Side Plank (Wide),10,1
+Side Plank (Narrow),5,1.1
+Side Plank (Neutral),6,1.2
+Side Plank (Paused),7,0.3
+Side Plank (Tempo),8,0.4
+Side Plank (Single Arm),9,0.5
+V Up,10,0.6
+V Up (Wide),5,0.7
+V Up (Narrow),6,0.8
+V Up (Neutral),7,0.9
+V Up (Paused),8,1
+V Up (Tempo),9,1.1
+V Up (Single Arm),10,1.2
+Back Squat,5,0.3
+Back Squat (Wide),6,0.4
+Back Squat (Narrow),7,0.5
+Back Squat (Neutral),8,0.6
+Back Squat (Paused),9,0.7
+Back Squat (Tempo),10,0.8
+Back Squat (Single Arm),5,0.9
+Front Squat,6,1
+Front Squat (Wide),7,1.1
+Front Squat (Narrow),8,1.2
+Front Squat (Neutral),9,0.3
+Front Squat (Paused),10,0.4
+Front Squat (Tempo),5,0.5
+Front Squat (Single Arm),6,0.6
+Lunge,7,0.7
+Lunge (Wide),8,0.8
+Lunge (Narrow),9,0.9
+Lunge (Neutral),10,1
+Lunge (Paused),5,1.1
+Lunge (Tempo),6,1.2
+Lunge (Single Arm),7,0.3
+Bulgarian Split Squat,8,0.4
+Bulgarian Split Squat (Wide),9,0.5
+Bulgarian Split Squat (Narrow),10,0.6
+Bulgarian Split Squat (Neutral),5,0.7
+Bulgarian Split Squat (Paused),6,0.8
+Bulgarian Split Squat (Tempo),7,0.9
+Bulgarian Split Squat (Single Arm),8,1
+Leg Press,9,1.1
+Leg Press (Wide),10,1.2
+Leg Press (Narrow),5,0.3
+Leg Press (Neutral),6,0.4
+Leg Press (Paused),7,0.5
+Leg Press (Tempo),8,0.6
+Leg Press (Single Arm),9,0.7
+Hack Squat,10,0.8
+Hack Squat (Wide),5,0.9
+Hack Squat (Narrow),6,1
+Hack Squat (Neutral),7,1.1
+Hack Squat (Paused),8,1.2
+Hack Squat (Tempo),9,0.3
+Hack Squat (Single Arm),10,0.4
+Step Up,5,0.5
+Step Up (Wide),6,0.6
+Step Up (Narrow),7,0.7
+Step Up (Neutral),8,0.8
+Step Up (Paused),9,0.9
+Step Up (Tempo),10,1
+Step Up (Single Arm),5,1.1
+Romanian Deadlift,6,1.2
+Romanian Deadlift (Wide),7,0.3
+Romanian Deadlift (Narrow),8,0.4
+Romanian Deadlift (Neutral),9,0.5
+Romanian Deadlift (Paused),10,0.6
+Romanian Deadlift (Tempo),5,0.7
+Romanian Deadlift (Single Arm),6,0.8
+Leg Curl,7,0.9
+Leg Curl (Wide),8,1
+Leg Curl (Narrow),9,1.1
+Leg Curl (Neutral),10,1.2
+Leg Curl (Paused),5,0.3
+Leg Curl (Tempo),6,0.4
+Leg Curl (Single Arm),7,0.5
+Leg Extension,8,0.6
+Leg Extension (Wide),9,0.7
+Leg Extension (Narrow),10,0.8
+Leg Extension (Neutral),5,0.9
+Leg Extension (Paused),6,1
+Leg Extension (Tempo),7,1.1
+Leg Extension (Single Arm),8,1.2
